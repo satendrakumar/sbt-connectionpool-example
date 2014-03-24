@@ -30,7 +30,7 @@ You then need to clone this project
 
 git clone https://github.com/satendrakumar06/sbtprojectwithconnectionpooling.git
 
-Change into the slickdemo folder.
+Change into the sbtprojectwithconnectionpooling folder.
 
 Run the code example using SBT
 
