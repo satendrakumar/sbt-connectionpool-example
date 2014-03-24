@@ -1,4 +1,4 @@
-
+<pre>
 To Run
 
 Install SBT 0.13, available from http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html
@@ -33,4 +33,19 @@ Change into the slickdemo folder.
 
 Run the code example using SBT
 
-$ sbt run
+sky@Sky:~/knols_sessions/sbtprojectwithconnectionpooling$ sbt run
+Loading /home/sky/scalatool/sbt-0.13/bin/sbt-launch-lib.bash
+[info] Loading project definition from /home/sky/knols_sessions/sbtprojectwithconnectionpooling/project
+[info] Set current project to sbtprojectwithconnectionpooling (in build file:/home/sky/knols_sessions/sbtprojectwithconnectionpooling/)
+[info] Compiling 1 Scala source to /home/sky/knols_sessions/sbtprojectwithconnectionpooling/target/scala-2.10/classes...
+[info] Running com.knol.app.ConnectionPoolTest
+15:38:15.956 [run-main] WARN com.jolbox.bonecp.BoneCP - Thread close connection monitoring has been enabled. This will negatively impact on your performance. Only enable this option for debugging purposes!
+15:38:16.088 [run-main] DEBUG com.jolbox.bonecp.StatementHandle - select * from emp
+(1212,sk,r&amp;d)
+(1213,ak,r&amp;d)
+(1214,dk,testing)
+15:38:16.111 [BoneCP-pool-watch-thread] DEBUG com.jolbox.bonecp.PoolWatchThread - Terminating pool watch thread
+15:38:16.111 [BoneCP-pool-watch-thread] DEBUG com.jolbox.bonecp.PoolWatchThread - Terminating pool watch thread
+15:38:16.112 [BoneCP-pool-watch-thread] DEBUG com.jolbox.bonecp.PoolWatchThread - Terminating pool watch thread
+15:38:16.111 [BoneCP-pool-watch-thread] DEBUG com.jolbox.bonecp.PoolWatchThread - Terminating pool watch thread
+</pre>
